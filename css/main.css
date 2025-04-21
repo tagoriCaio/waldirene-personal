@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: #eeeeee;
+    color: #333;
+}
+
+nav#nav-bar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: space-between;
+}
+
+nav#nav-bar #logo {
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav#nav-bar #logo img {
+    width: 90px;
+}
+
+nav#nav-bar #logo #logo-text {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav#nav-bar #logo #logo-text h1 {
+    font-size: 0.9rem;
+}
+
+nav#nav-bar #logo #logo-text h2 {
+    font-size: 0.7rem;
+    color: #cfcfcf;
+}
